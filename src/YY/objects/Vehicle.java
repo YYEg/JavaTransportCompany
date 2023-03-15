@@ -7,7 +7,7 @@ public abstract class Vehicle {
     private final String name;
     private String type;
 
-    public Organization(String name) {
+    public Vehicle(String name) {
         this.name = name;
         this.type = "";
     }

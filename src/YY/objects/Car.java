@@ -4,13 +4,13 @@ public class Car extends Vehicle {
 
     public Car(String name) {
         super(name);
-        setType("Авиазавод");
+        setType("Автомобиль");
     }
     @Override
     public String processOperation() {
-        return (getType() + " под названием " + getName() + " построил новый самолет под названием " + craftAirPlane());
+        return (getType() + " под названием " + getName() + " построил новый самолет под названием " + CarGoal());
     }
-    private String craftAirPlane() {
+    private String CarGoal() {
         return getObjetName();
     }
 }
